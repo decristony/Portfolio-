@@ -1,0 +1,17 @@
+:root {
+
+	--hue             : 345;
+	--hue2            : 290;
+	--hue3            : 240;
+	/* HSL color mode */
+	--skin-color      : hsl(var(--hue) 60% 55%);
+	--skin-color0     : hsl(var(--hue) 50% 80%);
+	--skin-color2     : hsl(var(--hue2) 50% 62%);
+	--skin-color4     : hsl(var(--hue3) 50% 62%);
+	--skin-color-alt  : hsl(var(--hue) 57% 53%);
+	--skin-color3     : hsl(var(--hue) 41% 30%);
+	--text-color      : hsl(0 0% 46%);
+	--skin-color-light: hsl(0 0% 98%);
+	--skin-color56    : hsl(0 0% 98%);
+
+}
