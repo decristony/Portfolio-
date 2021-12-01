@@ -117,6 +117,40 @@ img {
   flex-wrap: wrap;
 }
 
+.row1 {
+  animation: fadeInTopSection 1s ease;
+
+}
+
+.row2 {
+  animation: fadeInLeftSection 1s;
+
+}
+
+@keyframes fadeInTopSection {
+  0% {
+    opacity  : 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity  : 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fadeInLeftSection {
+  0% {
+    opacity  : 1;
+    transform: translateX(200px);
+  }
+
+  100% {
+    opacity  : 1;
+    transform: translateY(0px);
+  }
+}
+
 .justify-content-between {
   justify-content: space-between;
 }
@@ -342,6 +376,8 @@ img {
     transform: translateY(0px);
   }
 }
+
+
 
 .section-title {
 

@@ -67,6 +67,7 @@
 
         }
 
+        //Barra de navegaçao padrao
         // se clicar em link item e tiver no menu de navegaçao
         if (navMenu.classList.contains("open")) {
           event.target.classList.add("active", "inner-shadow");
@@ -82,7 +83,7 @@
               item.classList.remove("outer-shadow", "hover-in-shadow");
             }
           })
-          fadeOutEffect();
+          // fadeOutEffect();
         }
 
         window.location.hash = hash;
