@@ -351,6 +351,19 @@
                     </div>
                   </div>
                   <!--timeline item end-->
+                   <!--timeline item start-->
+                   <div class="timeline-item">
+                    <div class="timeline-item-inner outer-shadow">
+                      <i class="fas fa-graduation-cap icon"></i>
+                      <span>2021</span>
+                      <h3>Pós graduaçao/Trancado 3ºsemestre</h3>
+
+                      <p>
+                        Banco de dados e Busness inteligence
+                      </p>
+                    </div>
+                  </div>
+                  <!--timeline item end-->
                 </div>
               </div>
             </div>
@@ -835,23 +848,23 @@
         </div>
 
         <div class="row">
-          <div class="contact-form ">
-            <form action="">
+          <div class="contact-form " >
+            <form action="https://formsubmit.co/decristony@gmail.com" method="POST">
               <div class="row">
                 <div class="w-50">
                   <div class="input-group outer-shadow hover-in-shadow">
-                    <input type="text" placeholder="Name" class="input-control">
+                    <input type="text" placeholder="Name" class="input-control" required>
                   </div>
                   <div class="input-group outer-shadow hover-in-shadow">
-                    <input type="text" placeholder="Email" class="input-control">
+                    <input type="email" name="email" placeholder="Email" class="input-control" required>
                   </div>
                   <div class="input-group outer-shadow hover-in-shadow">
-                    <input type="text" placeholder="Subject" class="input-control">
+                    <input type="hidden" name="_subject" value="New submission!" placeholder="Subject" class="input-control">
                   </div>
                 </div>
                 <div class="w-50">
                   <div class="input-group outer-shadow hover-in-shadow">
-                    <textarea placeholder="Message" class="input-control"></textarea>
+                    <textarea type="textarea" name="textarea" placeholder="Message" class="input-control" required></textarea>
                   </div>
                 </div>
               </div>
@@ -860,6 +873,7 @@
                   <button type="submit" class="btn-1 outer-shadow hover-in-shadow click">Send Message</button>
                 </div>
               </div>
+              <input type="hidden" name="_next" value="https://decristony.github.io/Portifolio-/obrigado.html">
             </form>
           </div>
         </div>
