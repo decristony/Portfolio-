@@ -101,9 +101,11 @@ ul {
 }
 
 img {
+
   border-radius : 50%;
   vertical-align: middle;
   max-width     : 100%;
+
 }
 
 .container {
@@ -781,7 +783,7 @@ header .hamburger-btn:active {
 
 .home-section .home-img .img-box {
 
-
+  margin-top   : 2rem;
   max-width    : 400px;
   display      : block;
   border-radius: 30px;
@@ -1756,4 +1758,9 @@ h3 {
 ::-webkit-scrollbar-thumb {
   border-radius     : 5px;
   -webkit-box-shadow: inset 8px 8px 20px var(--skin-color);
+}
+
+.thx {
+  opacity   : 0;
+  visibility: hidden;
 }
