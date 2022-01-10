@@ -1,6 +1,6 @@
 # Portfolio-Complete
 
-## Link para o portfolio - https://decristony.github.io/Portifolio-/
+## Link para o portfolio - https://decristony.github.io/Portfolio-/
 
 ## Preview do portifolio 
 
