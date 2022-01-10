@@ -246,17 +246,17 @@ img {
   animation      : topBounce 3s ease-in-out infinite;
 }
 
-.effect-3 {
-  position        : fixed;
-  height          : 55px;
-  width           : 55px;
-  left            : 7.5%;
-  top             : 1.5%;
-  border-radius   : 50%;
-  background      : linear-gradient(45deg, transparent, transparent 40%, #e5f403);
-  /* border       : 25px solid var(--skin-color); */
-  animation       : animate 10s linear infinite;
-}
+/* .effect-3 {
+  position     : fixed;
+  height       : 55px;
+  width        : 55px;
+  left         : 7.5%;
+  top          : 1.5%;
+  border-radius: 50%;
+  background   : linear-gradient(45deg, transparent, transparent 40%, #e5f403);
+  border       : 25px solid var(--skin-color);
+  animation    : animate 10s linear infinite;
+} */
 
 @keyframes animate {
   0% {
@@ -487,23 +487,48 @@ img {
 
 }
 
+
+
+
+
 .header .logo {
   position: absolute;
   left    : 8%;
+
 }
 
 .header .logo a {
   position      : fixed;
   display       : inline-block;
   text-align    : center;
-  line-height   : 36px;
-  height        : 40px;
-  width         : 40px;
+  line-height   : 2.5rem;
+  height        : 2.5rem;
+  width         : 2.5rem;
   font-size     : 24px;
   color         : var(--text-black-700);
   border-radius : 50%;
   font-weight   : 600;
   text-transform: uppercase;
+  font-weight   : bold;
+  box-shadow    :
+    0px 0px 20px 5px var(--skin-color),
+    0px 0px 0px 5px #fff9,
+    7px 7px 20px 5px #0002,
+    4px 4px 5px 5px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
+}
+
+.header .logo a:hover {
+  box-shadow:
+    0px 0px 20px 5px var(--skin-color),
+    0px 0px 0px 5px #fff9,
+    7px 7px 20px 5px #0002,
+    4px 4px 5px 5px #0001,
+    inset 0px 0px 0px 0px #fff9,
+    inset 0px 0px 0px 0px #0001,
+    inset 0px 0px 0px 0px #fff9, inset 0px 0px 0px 0px #0001;
 }
 
 header .nav-bar {
@@ -807,17 +832,18 @@ header .hamburger-btn:active {
 /*----------------about section-----------*/
 
 .about-section {
-  position: relative;
-
+  position  : relative;
   padding   : 80px 0 0;
   min-height: 100vh;
 }
 
 .about-section .about-img {
 
-  flex     : 0 0 40%;
-  max-width: 40%;
-  padding  : 0 1rem;
+  flex: 0 0 40%;
+
+  max-width: 60%;
+
+  padding: 0 1rem;
 }
 
 .about-section .about-img .img-box {
@@ -825,8 +851,8 @@ header .hamburger-btn:active {
 }
 
 .about-section .about-img .img-box img {
-  width        : 100%;
-  border       : 10px solid transparent;
+  width: 100%;
+
   border-radius: .3rem;
 }
 
