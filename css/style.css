@@ -120,6 +120,7 @@ img {
 }
 
 .row1 {
+
   animation: fadeInTopSection 1s ease;
 
 }
@@ -387,7 +388,11 @@ img {
   flex         : 0 0 100%;
   max-width    : 100%;
   text-align   : center;
-  margin-bottom: 2rem;
+  margin-bottom: 0rem;
+}
+
+.section-title .row1 {
+  margin-bottom: 0;
 }
 
 .section-title h2 {
@@ -479,6 +484,7 @@ img {
   left    : 0;
   top     : 0px;
   z-index : 99;
+
 }
 
 .header .logo {
@@ -1162,8 +1168,15 @@ h3 {
   min-height: 100vh;
 }
 
+.section-title {
+  padding: 2.5rem;
+}
+
+
+
 .portfolio-section .section-title {
-  margin-bottom: 40px;
+
+  margin-bottom: 2.5rem;
 }
 
 .portfolio-section .portfolio-filter {
