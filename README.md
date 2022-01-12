@@ -28,5 +28,5 @@
 
 
 
-### Algumas sections ainda estao sendo revisadas e o formulario de contato em codding...
+### Algumas sections ainda estao sendo revisadas e o testimonials está em codding...
 
